@@ -16,7 +16,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Mongoose connect (workout database)
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true,  });
+// https://mongoosejs.com/docs/deprecations.html
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false });
 
 // Routes
 
