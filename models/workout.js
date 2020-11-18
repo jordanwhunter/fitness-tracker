@@ -1,4 +1,8 @@
 // Dependencies
+const mongoose = require("mongoose");
+
+// Constructor
+const Schema = mongoose.Schema;
 
 // Establish mongoose.schema
 
