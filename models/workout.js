@@ -4,14 +4,51 @@ const mongoose = require("mongoose");
 // Constructor
 const Schema = mongoose.Schema;
 
-// Establish mongoose.schema
-
+// Establish schemaForWorkouts
 // Set up guidelines for schema
+const schemaForWorkouts = new Schema (
+  {
+    // I want to be able to log multiple exercises in a workout on a given day {object}.
+    day: {
+      type: Date,
+      default: () => new Date()
+    },
+    // I should also be able to track the name, type, weight, sets, reps, and duration of exercise [array].
+    // name
+    name: {
+      type: String
+    },
 
-  // I want to be able to log multiple exercises in a workout on a given day.
+    // type
+    type: {
+      type: String
+    },
 
-  // I should also be able to track the name, type, weight, sets, reps, and duration of exercise.
+    // weight
+    weight: {
+      type: Number
+    },
 
-  // If the exercise is a cardio exercise, I should be able to track my distance traveled.
+    // sets
+    sets: {
+      type: Number
+    },
+
+    // reps
+    reps: {
+      type: Number
+    },
+
+    // duration
+    duration: {
+      type: Number
+    },
+
+    // If the exercise is a cardio exercise, I should be able to track my distance traveled.  
+  }
+);
 
 // Export
+const Workout = mongoose.model("Workout", schemaForWorkouts);
+
+module.exports = Workout;
