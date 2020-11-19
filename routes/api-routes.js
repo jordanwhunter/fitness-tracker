@@ -28,6 +28,18 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
+// DELETE
+// For reference: https://mongoosejs.com/docs/api.html
+router.delete("/api/workouts", ({ body }, res) => {
+  Workout.findByIdAndDelete(body.id)
+    .then(() => {
+      res.json(true);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
+
 // "/api/workouts/range"
 
 // "/api/workouts/:id"
