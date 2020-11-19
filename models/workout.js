@@ -45,6 +45,12 @@ const schemaForWorkouts = new Schema (
         type: Number
       },
     }]
+  },
+  {
+    // For reference on virtuals with json: https://mongoosejs.com/docs/2.7.x/docs/virtuals.html - when data is called, this will include any virtual properties
+    toJSON: {
+      virtuals: true
+    }
   }
 );
 
