@@ -14,37 +14,37 @@ const schemaForWorkouts = new Schema (
       default: () => new Date()
     },
     // I should also be able to track the name, type, weight, sets, reps, and duration of exercise [array].
-    // name
-    name: {
-      type: String
-    },
+    exercises: [{
+        // name
+      name: {
+        type: String
+      },
 
-    // type
-    type: {
-      type: String
-    },
+      // type
+      type: {
+        type: String
+      },
 
-    // weight
-    weight: {
-      type: Number
-    },
+      // weight
+      weight: {
+        type: Number
+      },
 
-    // sets
-    sets: {
-      type: Number
-    },
+      // sets
+      sets: {
+        type: Number
+      },
 
-    // reps
-    reps: {
-      type: Number
-    },
+      // reps
+      reps: {
+        type: Number
+      },
 
-    // duration
-    duration: {
-      type: Number
-    },
-
-    // If the exercise is a cardio exercise, I should be able to track my distance traveled.  
+      // duration
+      duration: {
+        type: Number
+      },
+    }]
   }
 );
 
