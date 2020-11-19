@@ -20,6 +20,7 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false }); // Following initial setup in seed.js
 
 // Routes
+app.use(require("./routes/html-routes.js"));
 
 // Initiate server
 app.listen(PORT, () => {
