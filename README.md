@@ -36,6 +36,7 @@
   * <a href="https://nodejs.org/en/" target="_blank">Node.js</a>: back-end JavaScript runtime environment built on Chrome's V8 engine
   * <a href="https://expressjs.com/" target="_blank">Express.js</a>: de facto standard server framework for Node.js
   * <a href="https://d3js.org/" target="_blank">D3.js</a>: JavaScript library for producing dynamic, interactive data visualizations in web browsers
+  * <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">HTML5</a>: a markup language used for structuring and presenting content on the World Wide Web
   
   ## Authors
   <a href="www.https://github.com/jordanwhunter" target="_blank">Jordan Hunter</a>
