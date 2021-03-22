@@ -29,7 +29,7 @@
   * ```path```<br>
   
   ## Technologies
-  * <a href="www.javascript.com" target="_blank">JavaScript</a>: front-end UI/UX JavaScript library
+  * <a href="www.javascript.com" target="_blank">JavaScript</a>: a programming language that conforms to the ECMAScript specification
   * <a href="www.jquery.com" target="_blank">jQuery</a>: front-end JavaScript framework
   * <a href="www.npmjs.com" target="_blank">NPM</a> [Node Package Manager]: dependency management
   * <a href="http://www.css3.info/" target="_blank">CSS3</a>: style sheet used for presentation within a markup language
