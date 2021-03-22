@@ -31,7 +31,7 @@
   ## Technologies
   * <a href="www.javascript.com" target="_blank">JavaScript</a>: front-end UI/UX JavaScript library
   * <a href="www.jquery.com" target="_blank">jQuery</a>: front-end JavaScript framework
-  * <a href="www.npmjs.com" target="_blank">NPM</a>: [Node Package Manager] - dependency management
+  * <a href="www.npmjs.com" target="_blank">NPM</a> [Node Package Manager]: dependency management
   * <a href="http://www.css3.info/" target="_blank">CSS3</a>: style sheet used for presentation within a markup language
   * <a href="https://nodejs.org/en/" target="_blank">Node.js</a>: back-end JavaScript runtime environment built on Chrome's V8 engine
   * <a href="https://expressjs.com/" target="_blank">Express.js</a>: de facto standard server framework for Node.js
